@@ -19,8 +19,8 @@ void output(int n,int composite)
   for(int i=4;i<n/2;i++)
 {
   if(n>2)
-  {printf("%d is composite number",n);
-  {
+  printf("%d is composite number",n);
+  
   printf("%d is %d",i,composite);
 }
 }
@@ -30,6 +30,6 @@ int main()
   a=input_number();
  composite= is_composite(n);
   output(n,composite);
-  return 0;
+  //return composite;
 }
 
