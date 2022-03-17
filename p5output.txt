@@ -1,1 +1,19 @@
-
+gcc -g p5original.c
+ ./a.out
+enter the numbers
+4
+enter the numbers
+8
+gcd of 4 and 8 is 4
+ ./a.out
+enter the numbers
+5
+enter the numbers
+10
+gcd of 5 and 10 is 5
+ ./a.out
+enter the numbers
+18
+enter the numbers
+16
+gcd of 18 and 16 is 2
