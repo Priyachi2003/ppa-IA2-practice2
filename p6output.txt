@@ -1,1 +1,6 @@
 
+gcc -g p7original.c
+ ./a.out
+enter the word
+hello
+the reverse string is olleh 
