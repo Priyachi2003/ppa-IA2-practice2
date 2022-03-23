@@ -1,1 +1,7 @@
+ gcc -g p8original.c
+ ./a.out
+enter the values
+2
+3
+the area of traingle with base 2.000000 &  altitude 3.000000 is 3.000000 
 
