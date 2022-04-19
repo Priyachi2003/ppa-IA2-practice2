@@ -6,11 +6,11 @@ void input(float *base,float *height)
 }
 void find_area(float base,float height,float *area)
 {
-  *area=base*height/2;
+  *area=0.5 * base*height;
 }
 void output(float base,float height,float area)
 {
-  printf("area of triangle is %.2f\n",area);
+  printf("area of triangle is %f\n",area);
 }
 int main()
   {

@@ -8,28 +8,32 @@ int input_number()
 }
 int is_composite(int n)
 {
-  for(int i=4;i<n/2;i++)
-  {
-  printf("the number is composite");
-}
-return 0;
+  int i,count=0;
+  for(int i=1;i<=n;i++)
+    {
+
+      if(n%i==0)
+        count++;
+    }
+  return count;
 }
 void output(int n,int composite)
+
 {
-  for(int i=4;i<n/2;i++)
-{
-  if(n>2)
-  printf("%d is composite number",n);
-  
-  printf("%d is %d",i,composite);
-}
+
+  if(composite>2)
+  printf("%d is composite number\n",n);
+
+  else
+  printf("%d is prime nor\n",n);
+
 }
 int main()
 {
-  int a,n,composite;
-  a=input_number();
+  int n,composite;
+  n=input_number();
  composite= is_composite(n);
   output(n,composite);
-  //return composite;
+  return 0;
 }
 
